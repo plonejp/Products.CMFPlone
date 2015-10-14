@@ -8,6 +8,10 @@ Changelog
 5.0.1 (unreleased)
 ------------------
 
+- No longer rely on deprecated ``bobobase_modification_time`` from
+  ``Persistence.Persistent``.
+  [thet]
+
 - compress generated bundle css file when running plone-compile-resource
   [petschki]
 
