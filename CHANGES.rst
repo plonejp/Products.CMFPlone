@@ -9,6 +9,11 @@ Changelog
 ------------------
 
 New:
+- Changes for Zope 4 compatibility in maintenance controlpanel.
+  [thet]
+
+- Fix some i18n issues.
+  [vincentfretin]
 
 - Add option to show/hide thumbs in site-controlpanel
   https://github.com/plone/Products.CMFPlone/issues/1241
@@ -27,6 +32,12 @@ New:
 
 - Added syndication for plone.app.contenttypes collections.
   [do3cc]
+
+- Fix "contains object" tinymce setting not getting passed into pattern
+  correctly Fixes #1023.
+- fix "contains object" tinymce setting not getting passed into pattern
+  correctly Fixes #1023
+  [vangheem]
 
 - Compress generated bundle css file when running plone-compile-resource.
   [petschki]
